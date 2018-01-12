@@ -15,7 +15,7 @@ function Cat(name, breed, age) {
 function Ferret(name, breed, foodReq) {
 	this.name = name;
 	this.breed = breed;
-	this.foodReq = foodReq;
+	this.foodRequirements = foodReq;
 }
 
 function Bird(name, breed) {
@@ -26,5 +26,7 @@ function Bird(name, breed) {
 function Fish(name, species, waterCond) {
 	this.name = name;
 	this.species = species;
-	this.waterCond = waterCond;
+	this.waterConditions = waterCond;
 }
+
+
