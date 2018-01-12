@@ -12,9 +12,9 @@ function Cat(name, breed, age) {
 	this.age = age;
 }
 
-function Ferret(name, breed, foodReq) {
+function Ferret(name, age, foodReq) {
 	this.name = name;
-	this.breed = breed;
+	this.age = age;
 	this.foodRequirements = foodReq;
 }
 
@@ -28,5 +28,4 @@ function Fish(name, species, waterCond) {
 	this.species = species;
 	this.waterConditions = waterCond;
 }
-
 
